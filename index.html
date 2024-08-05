@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StorySpace - 당신만의 성장 이야기</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="#main">StorySpace</a></div>
+            <ul>
+                <li><a href="#main">홈</a></li>
+                <li><a href="#record">기록</a></li>
+                <li><a href="#store">이야기 탐색</a></li>
+                <li><a href="#login">로그인</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="main" class="main-section">
+            <div class="hero">
+                <h1>당신만의 독특한 성장 이야기를 기록하세요</h1>
+                <p>모든 사람은 자신만의 특별한 여정을 가지고 있습니다. 당신만의 이야기로 남들에게 귀감을 주고 다른 이의 여정에서 영감을 얻으세요.</p>
+                <a href="#" class="cta-button">나의 이야기 시작하기</a>
+            </div>
+
+            <div class="quick-access">
+                <h2>내 기록 바로가기</h2>
+                <div class="quick-access-grid">
+                    <a href="#" class="quick-access-item">
+                        <i class="fas fa-book"></i>
+                        <span>일일 기록</span>
+                    </a>
+                    <a href="#" class="quick-access-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>성장 그래프</span>
+                    </a>
+
+                    <a href="#" class="quick-access-item">
+                        <i class="fas fa-tasks"></i>
+                        <span>목표 관리</span>
+                    </a>
+                    <a href="#" class="quick-access-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>인사이트</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="featured-stories">
+                <h2>주목할 만한 성장 스토리</h2>
+                <div class="story-grid">
+                    <article class="story-card">
+                        <img src="https://www.waveon.io/_ipx/f_webp,w_700,size_100vw+md:700px/static/img/blog/_posting/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="Story 1">
+                        <div class="story-info">
+                            <h3>법대생에서 IT 개발자로</h3>
+                            <p>법학을 공부하다 프로그래밍에 매료되어 커리어를 전환한 과정과 그 속에서 배운 교훈들</p>
+                            <span class="author">김코딩</span>
+                            <P>프로그래밍 / 내향적 / 서울</P>
+                            <p class="signup-text">이야기가 궁금하신가요? </p>
+                            <a href="#" id="profile-link">프로필 연결</a>
+                        </div>
+                    </article>
+                    <article class="story-card">
+                        <img src="Financial District, New York City_ November, 2017_.jpeg" alt="Story 2">
+                        <div class="story-info">
+                            <h3>공대생인 내가 변호사를 꿈꾸게 된 이야기</h3>
+                            <p>학점만 높은 20학번 화학공학과 학생의 리트 도전기</p>
+                            <span class="author">H20H20</span>
+                            <P>리트 / 외향적 / 부산</P>
+                            <p class="signup-text">이야기가 궁금하신가요? </p>
+                            <a href="#" id="profile-link">프로필 연결</a>
+                        </div>
+                    </article>
+                    <article class="story-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXEEjqTbysU5Herw7oiyd0BsyO-BpBcNXvFQ&s" alt="Story 3">
+                        <div class="story-info">
+                            <h3>50대의 창업 성공기</h3>
+                            <p>늦은 나이에 시작한 창업, 그 도전과 성공의 여정</p>
+                            <span class="author">박창업</span>
+                            <p class="signup-text">이야기가 궁금하신가요? </p>
+                            <P>창업 / 외향적 / 대구</P>
+                            <a href="#" id="profile-link">프로필 연결</a>
+                        </div>
+                    </article>
+                    <article class="story-card">
+                        <img src="Rebel Art for Rebel Hearts_ $1000 Credit for Risk-Takers.jpeg" alt="Story 4">
+                        <div class="story-info">
+                            <h3>주부에서 유튜브 크리에이터로</h3>
+                            <p>육아와 가사 사이에서 새로운 재능을 발견하고 성장한 이야기</p>
+                            <span class="author">최유튜브</span>
+                            <p class="signup-text">이야기가 궁금하신가요? </p>
+                            <P>육아 / 외향적 / 대구</P>
+                            <a href="#" id="profile-link">프로필 연결</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            
+        </section>
+
+        <section id="record" class="record-section brunch-style" style="display: none;">
+            <div class="brunch-container">
+                <div class="brunch-sidebar">
+                    <div class="profile-card">
+                        <img src="https://mblogthumb-phinf.pstatic.net/MjAyMTA4MDFfMjIx/MDAxNjI3ODE1MTkyMjI2.MttKEaAXsLAtJbii9P-5OGX06s6-uVzMSVa6Db7D96gg.qITLHjb_-CZGx0pt3JXbKybmOaY54vrI1tqO7qP7mscg.PNG.brotherm1n/IMG_3219.PNG?type=w800" alt="프로필 이미지" class="profile-image">
+                        <h3 class="profile-name">마케터 JAY Z</h3>
+                        <p class="profile-description">한국대 언론정보학과 졸업 - 광고회사 인턴 - 스타트업 마케터</p>
+                    </div>
+                    <nav class="brunch-nav">
+                        <ul>
+                            <li><a href="#" class="active">글</a></li>
+                            <li><a href="#">시리즈</a></li>
+                            <li><a href="#">매거진</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="brunch-content">
+                    <div class="brunch-header">
+                        <h2>나의 기록</h2>
+                        <button id="write-story">글쓰기</button>
+                    </div>
+                    <div class="story-list">
+                        <!-- 스토리 항목들이 여기에 추가됩니다 -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="store" class="store-section brunch-style" style="display: none;">
+            <div class="brunch-container">
+                <div class="brunch-sidebar">
+                    <h2>탐색 필터</h2>
+                    <div class="filter-section">
+                        <h3>준비하는 시험</h3>
+                        <select id="exam-filter">
+                            <option value="">모든 시험</option>
+                            <option value="공무원">공무원</option>
+                            <option value="토익">토익</option>
+                            <option value="자격증">자격증</option>
+                        </select>
+                    </div>
+                    <div class="filter-section">
+                        <h3>성격</h3>
+                        <select id="personality-filter">
+                            <option value="">모든 성격</option>
+                            <option value="내향적">내향적</option>
+                            <option value="외향적">외향적</option>
+                        </select>
+                    </div>
+                    <div class="filter-section">
+                        <h3>위치</h3>
+                        <select id="location-filter">
+                            <option value="">모든 위치</option>
+                            <option value="서울">서울</option>
+                            <option value="부산">부산</option>
+                            <option value="대구">대구</option>
+                        </select>
+                    </div>
+                    <div class="filter-section">
+                        <h3>검색</h3>
+                        <input type="text" id="search-input" placeholder="스토리 검색...">
+                    </div>
+                </div>
+                <div class="brunch-content">
+                    <div class="brunch-header">
+                        <h2>이야기 탐색</h2>
+                    </div>
+                    <div class="story-list" id="filtered-stories">
+                        <!-- 필터링된 스토리들이 여기에 표시됩니다 -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="login" class="login-section" style="display: none;">
+            <div class="login-container">
+                <h1>로그인</h1>
+                <form id="login-form">
+                    <div class="input-group">
+                        <label for="email">이메일</label>
+                        <input type="email" id="email" placeholder="이메일을 입력하세요" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">비밀번호</label>
+                        <input type="password" id="password" placeholder="비밀번호를 입력하세요" required>
+                    </div>
+                    <button type="submit">로그인</button>
+                </form>
+                <p class="signup-text">계정이 없으신가요? <a href="#" id="signup-link">회원가입</a></p>
+            </div>
+        </section>
+
+        
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 StorySpace. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
